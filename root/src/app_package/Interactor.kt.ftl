@@ -2,7 +2,7 @@ package ${packageName}
 
 import android.util.Log
 
-interface HomeInteractorInput {
+interface ${classname}InteractorInput {
     fun fetch${classname}Data(request: ${classname}Request)
 }
 
@@ -14,7 +14,7 @@ class ${classname}Interactor : ${classname}InteractorInput {
 
     override fun fetch${classname}Data(request: ${classname}Request) {
         // Log.d(TAG, "In method fetch${classname}Data")
-        val response = {classname}Response()
+        val response = ${classname}Response()
 
         // Call the workers
         // workerInput.someWork()

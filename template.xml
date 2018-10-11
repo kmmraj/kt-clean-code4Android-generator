@@ -2,7 +2,7 @@
 <template
     format="5"
     revision="3"
-    name="Android Clean Code"
+    name="Kotlin CleanCode4Android"
     description="Creates a classes for Kotlin Clean Code for Android - Test driven development."  >
 
     <category value="Other" />

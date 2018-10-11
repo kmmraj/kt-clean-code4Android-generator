@@ -20,7 +20,7 @@
 		to="${escapeXmlAttribute(testOut)}/${classname}PresenterUnitTest.kt"/>
 
 	<instantiate from="root/src/app_package/FragmentUnitTest.kt.ftl"
-		to="${escapeXmlAttribute(testOut)}/${classname}FragmengtUnitTest.kt"/>
+		to="${escapeXmlAttribute(testOut)}/${classname}FragmentUnitTest.kt"/>
 
 	<open file="${srcOut}/${classname}Fragment.kt"/>
 </recipe>

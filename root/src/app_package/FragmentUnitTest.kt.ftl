@@ -1,7 +1,7 @@
 package ${packageName}
 
 import ${packageName}.${classname}Fragment
-import ${classname}.MainActivity
+
 import ${packageName}.${classname}InteractorInput
 import ${packageName}.${classname}Request
 import org.junit.Assert
@@ -49,7 +49,7 @@ class ${classname}FragmentUnitTest {
         fragment.output = fragmentOutputSpy
 
         // When
-        homeFragment.fetchData()
+        fragment.fetchData()
 
         // Then
         Assert.assertNotNull(${classname}Fragment)
