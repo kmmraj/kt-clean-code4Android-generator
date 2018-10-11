@@ -1,7 +1,5 @@
 package ${packageName}
 
-import android.util.Log
-
 interface ${classname}InteractorInput {
     fun fetch${classname}Data(request: ${classname}Request)
 }
@@ -20,7 +18,7 @@ class ${classname}Interactor : ${classname}InteractorInput {
         // workerInput.someWork()
 
         // Call the presenter
-        output.present${classname}Data(response)
+        output?.present${classname}Data(response)
     }
 
     companion object {

@@ -1,10 +1,10 @@
-package ${packageName};
+package ${packageName}
 
 import java.lang.ref.WeakReference
 
 object ${classname}Configurator {
 
-    fun configureFragment(fragment: HomeFragment) {
+    fun configureFragment(fragment: ${classname}Fragment) {
 
         val router = ${classname}Router()
         router.fragment = WeakReference(fragment)
