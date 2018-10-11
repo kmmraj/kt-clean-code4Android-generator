@@ -26,8 +26,7 @@ Welcome to contribute, feel free to change and open a PR.
 [MIT License][6]
 
 #### TODO
-1. Create scaffolding for Fragments
-2. Create scaffolding for TestClasses
+1. Create scaffolding for Test classes
 
 
 

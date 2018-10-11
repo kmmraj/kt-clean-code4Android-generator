@@ -3,7 +3,9 @@
     format="5"
     revision="3"
     name="Kotlin CleanCode4Android"
-    description="Creates a classes for Kotlin Clean Code for Android - Test driven development."  >
+    description="Creates a classes for Kotlin Clean Code for Android - Test driven development."
+    minApi="7"
+    minBuildApi="8" >
 
     <category value="Other" />
 
@@ -14,6 +16,15 @@
         constraints="class|nonempty|unique"
         default="Home"
         help="The name of the screen to create" />
+
+    <!-- <parameter
+        id="layoutName"
+        name="Fragment Layout Name"
+        type="string"
+        constraints="layout|nonempty|unique"
+        default="blank_fragment"
+        suggest="${classToResource(className)}_fragment"
+        help="The name of the layout to create" /> -->
 
         <thumbs>
             <!-- default thumbnail is required -->
