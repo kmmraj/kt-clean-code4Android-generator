@@ -1,6 +1,6 @@
-#  Android Clean Code Template Tool - Auto generate needed files from Android Studio
+#  Kotlin Clean Code For Android Template Tool - Auto generate needed files from Android Studio
 #### Inspired from [Clean Architecture][1] from Uncle Bob, [Google Android samples][3]  and [Clean Swift][2]
-##### This design is chosen with a singular focus - testablity.
+##### This design is chosen with a singular focus - testability.
 ##### Example of this template in action [here][5]
 
 ## Quick Start

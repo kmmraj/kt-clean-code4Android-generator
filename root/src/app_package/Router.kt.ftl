@@ -36,7 +36,7 @@ class ${classname}Router : ${classname}RouterInput, AdapterView.OnItemClickListe
 
     override fun onItemClick(parent: AdapterView<*>, view: View, position: Int, id: Long) {
         // Log.d(TAG, "onItemClick() called with: parent = [$parent], "
-        + "view = [$view], position = [$position], id = [$id]")
+        // + "view = [$view], position = [$position], id = [$id]")
         val nextFragment = determineNextScreen(position)
         passDataToNextScene(position, nextFragment)
         // Ask the activity to show the next fragment. eg ..

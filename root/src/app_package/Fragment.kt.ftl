@@ -1,9 +1,7 @@
 package ${packageName}
 
-import android.content.Context
 import android.os.Bundle
 import android.support.v4.app.Fragment
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -21,7 +19,7 @@ class ${classname}Fragment : Fragment(), ${classname}FragmentInput {
                                   savedInstanceState: Bundle?): View? {
       // Do the setup
       // Inflate the layout for this fragment
-      val view =  inflater.inflate(R.layout.fragment_${classname}, container, false)
+      val view =  inflater.inflate(R.layout.fragment_${classToResource(classname)}, container, false)
 
       ${classname}Configurator.configureFragment(this)
       fetchData()
