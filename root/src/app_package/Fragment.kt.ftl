@@ -6,6 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 
+<#if applicationPackage??>
+import ${applicationPackage}.R;
+</#if>
+
 interface ${classname}FragmentInput {
     fun display${classname}Data(viewModel: ${classname}ViewModel )
 }
