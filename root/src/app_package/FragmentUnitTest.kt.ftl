@@ -1,9 +1,5 @@
 package ${packageName}
 
-import ${packageName}.${classname}Fragment
-
-import ${packageName}.${classname}InteractorInput
-import ${packageName}.${classname}Request
 import org.junit.Assert
 import org.junit.Test
 import org.junit.runner.RunWith

@@ -12,6 +12,7 @@
 
 	<instantiate from="root/src/app_package/PresenterUnitTest.kt.ftl" to="${escapeXmlAttribute(unitTestOut)}/${classname}PresenterUnitTest.kt"/>
 	<instantiate from="root/src/app_package/FragmentUnitTest.kt.ftl" to="${escapeXmlAttribute(unitTestOut)}/${classname}FragmentUnitTest.kt"/>
+	<instantiate from="root/src/app_package/InteractorUnitTest.kt.ftl" to="${escapeXmlAttribute(unitTestOut)}/${classname}InteractorUnitTest.kt"/>
 		<dependency mavenUrl="junit:junit:4.12" gradleConfiguration="testCompile" />
 		<dependency mavenUrl="org.robolectric:robolectric:3.8" gradleConfiguration="testCompile" />
 
