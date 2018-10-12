@@ -5,6 +5,7 @@ import org.junit.Assert
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
+import java.lang.ref.WeakReference
 
 @RunWith(RobolectricTestRunner::class)
 class ${classname}RouterUnitTest {
@@ -20,13 +21,13 @@ class ${classname}RouterUnitTest {
         router.fragment = WeakReference(fragment)
 
         // When - Based on the position or some other data decide what is the next scene
-        val fragment = router.determineNextScreen(0)
+        val nextFragment = router.determineNextScreen(0)
 
         // Then
-        val targetFragmentName = fragment.javaClass.name
+        val nextFragmentName = nextFragment.javaClass.name
         // Assert.assertEquals("When the some Data passed to ${classname}Router" +
         //        " Then next Fragment should be __Fragment",
-        //        targetFragmentName,
+        //        nextFragmentName,
         //        BoardingActivity::class.java.name)
     }
 
