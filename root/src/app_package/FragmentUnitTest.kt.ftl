@@ -10,23 +10,9 @@ import org.junit.runner.RunWith
 import org.robolectric.Robolectric
 import org.robolectric.RobolectricTestRunner
 
-<#if applicationPackage??>
-import ${applicationPackage}.R
-</#if>
-
 
 @RunWith(RobolectricTestRunner::class)
 class ${classname}FragmentUnitTest {
-
-    @Test
-    fun mainActivity_ShouldNOT_be_Null() {
-        // Given
-        val activity = Robolectric.setupActivity(MainActivity::class.java)
-        // When
-
-        // Then
-        Assert.assertNotNull(activity)
-    }
 
     @Test
     fun onCreate_shouldCall_fetch${classname}Data() {
