@@ -16,12 +16,13 @@
 	<instantiate from="root/src/app_package/Model.kt.ftl"
 		to="${escapeXmlAttribute(srcOut)}/${classname}Model.kt"/>
 	<instantiate from="root/res/layout/blank_fragment.xml.ftl"
-                   to="${escapeXmlAttribute(resOut)}/layout/fragment_${classToResource(classname)}.xml" />
-	<instantiate from="root/src/app_package/PresenterUnitTest.kt.ftl"
-		to="${escapeXmlAttribute(testOut)}/${classname}PresenterUnitTest.kt"/>
+    to="${escapeXmlAttribute(resOut)}/layout/fragment_${classToResource(classname)}.xml" />
 
+	<instantiate from="root/src/app_package/PresenterUnitTest.kt.ftl"
+		to="${escapeXmlAttribute(unitTestOut)}/${classname}PresenterUnitTest.kt"/>
 	<instantiate from="root/src/app_package/FragmentUnitTest.kt.ftl"
-		to="${escapeXmlAttribute(testOut)}/${classname}FragmentUnitTest.kt"/>
+		to="${escapeXmlAttribute(unitTestOut)}/${classname}FragmentUnitTest.kt"/>
+		<dependency mavenUrl="junit:junit:4.12" gradleConfiguration="testCompile" />
 
 	<open file="${escapeXmlAttribute(resOut)}/layout/fragment_${classToResource(classname)}.xml" />
   <open file="${srcOut}/${classname}Fragment.kt"/>
