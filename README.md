@@ -7,15 +7,14 @@
 *  Clone this project and copy the contents to the following location in your Android Studio
 
 * Windows : Navigate to the location of the templates folder :  
-         ```
 
+         ```
          cd {ANDROID_STUDIO_LOCATION}/plugins/android/lib/templates/other/
          ```
 
 * MacOS:  Navigate to the location of the templates folder :
 
         ```
-
         cd /Applications/Android\ Studio.app/Contents/plugins/android/lib/templates/other/
         ```
 
