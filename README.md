@@ -40,6 +40,8 @@ This project ideas aren't new in any way. Credit has to be given to the followin
 
 [Make your own File Templates in Android Studio][4]
 
+[Mastering Android Studio Templates][7]
+
 
 
 [1]: https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html
@@ -48,3 +50,4 @@ This project ideas aren't new in any way. Credit has to be given to the followin
 [4]: https://riggaroo.co.za/custom-file-templates-android-studio/
 [5]: https://github.com/kmmraj/android-clean-code
 [6]: ./LICENSE
+[7]: https://medium.com/androidstarters/mastering-android-studio-templates-ed8fdd98cb78
